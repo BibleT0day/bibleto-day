@@ -95,13 +95,6 @@ main { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem 3rem; }
 .meeting { background: var(--meeting); border-top-color: var(--accent); }
 .meeting .phrase { color: var(--accent); }
 
-/* Phones: the calendar becomes a simple list of days */
-@media (max-width: 700px) {
-  .calendar { grid-template-columns: 1fr; }
-  .weekday, .day.empty { display: none; }
-  .day { min-height: 0; }
-}
-
 /* ---------- "Read all" button and pop-up ---------- */
 .read-all {
   align-self: flex-start; margin-top: .35rem; padding: .15rem .55rem;
@@ -119,6 +112,64 @@ main { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem 3rem; }
 .reading-dialog .close {
   position: absolute; top: .6rem; right: .7rem; background: none; border: none;
   color: var(--muted); font-size: 1.6rem; line-height: 1; cursor: pointer;
+}
+
+/* ---------- Phone view (screens narrower than 700px) ---------- */
+.phone { display: none; }
+
+@media (max-width: 700px) {
+  .weeks, .calendar { display: none; }      /* hide the desktop week cards and grid */
+  .phone { display: block; }
+  main { padding: .75rem .9rem 2rem; }
+  .topbar { padding: 1rem; }
+  .month-title { font-size: 1.6rem; margin: .25rem 0 .75rem; }
+
+  /* a) week strip: swipe sideways */
+  .week-strip { display: flex; gap: .6rem; overflow-x: auto; padding-bottom: .5rem; }
+  .week-chip {
+    flex: 0 0 auto; width: 7.5rem; padding: 0; overflow: hidden; text-align: left;
+    background: var(--card); color: var(--ink); border: 2px solid transparent; border-radius: 12px;
+  }
+  .week-chip img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
+  .week-chip span { display: block; padding: .35rem .5rem; font-size: .85rem; font-weight: 600; }
+  .week-chip small { font-weight: 400; color: var(--muted); }
+  .week-chip.selected { border-color: var(--accent); }
+
+  /* b) chosen week's details */
+  .phone-week { background: var(--card); border-radius: 14px; overflow: hidden; margin: .9rem 0; }
+  .phone-week h3 { font-size: 1.65rem; line-height: 1.2; padding: 1.1rem 1.25rem .2rem; }
+  .phone-week .truth { padding: 0 1.25rem; margin: .5rem 0 .8rem; font-size: 1.1rem; }
+  .phone-week .facts-line { padding: 0 1.25rem; margin: .35rem 0; font-size: 1rem; }
+  .phone-week .facts-line:last-of-type { margin-bottom: 1rem; }
+  .phone-week .outline { font-size: .9rem; padding: .7rem 1.25rem; }
+  .facts-line b { color: var(--muted); font-weight: 600; font-size: .75rem; text-transform: uppercase; }
+  .note { background: var(--meeting); padding: .7rem 1rem; border-radius: 10px; }
+
+  /* c) seven day buttons */
+  .day-pills { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin: 1rem 0 .6rem; }
+  .day-pill {
+    display: flex; flex-direction: column; align-items: center; padding: .35rem 0;
+    background: var(--card); color: var(--ink); border: 1px solid var(--line); font-size: .72rem;
+  }
+  .day-pill b { font-size: 1.05rem; }
+  .day-pill.meeting { background: var(--meeting); }
+  .day-pill.today { border: 2px solid var(--accent); }
+  .day-pill.selected { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* the big day card */
+  .day-card {
+    background: var(--card); border-radius: 12px; padding: 1.1rem 1.2rem; min-height: 14rem;
+    border-top: 6px solid transparent; display: flex; flex-direction: column; font-size: 1.05rem;
+  }
+  .day-card.meeting { background: var(--meeting); border-top-color: var(--accent); }
+  .day-card .date { font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; }
+  .day-card .phrase { font-size: 1.25rem; line-height: 1.35; margin: .5rem 0 .8rem; }
+  .day-card .also { font-size: .9rem; line-height: 1.7; }
+  .day-card .read-all { font-size: .85rem; padding: .35rem .9rem; margin-top: .8rem; }
+  .day-card .marker { font-size: .8rem; }
+
+  .week-nav { display: flex; justify-content: space-between; margin-top: 1rem; }
+  .week-nav button { background: var(--card); color: var(--accent); border-color: var(--line); }
 }
 
 .footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2rem; }

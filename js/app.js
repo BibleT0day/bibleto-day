@@ -65,7 +65,7 @@ function buildCalendar() {
     if (phrase) {
       state.calendar[toIso(meeting)] = { meeting: true, phrase: phrase, discuss: plan.discuss };
     }
-    state.meetings.push({ date: meeting, discuss: plan.discuss });
+    state.meetings.push({ date: meeting, discuss: plan.discuss, study: plan.study, note: plan.note });
   });
 }
 
@@ -152,31 +152,154 @@ function drawCalendar() {
     const cell = document.createElement("div");
     cell.className = "day" + (iso === todayIso ? " today" : "") + (entry && entry.meeting ? " meeting" : "");
     cell.id = "day-" + iso;
-    let html = '<div class="date">' + d.getDate() + "</div>";
-
-    if (entry && entry.meeting) {
-      html += '<div class="phrase">' + entry.phrase + "</div>";
-      if (entry.discuss.length) html += '<div class="marker">Lesson ' + entry.discuss.join(" & ") + "</div>";
-    } else if (entry) {
-      // Order inside a day: phrase, the day's passage, extra readings, then "L1 · Day 2" at the bottom
-      cell.style.borderTopColor = sectionFor(entry.lesson).color;
-      html += '<div class="phrase">' + entry.phrase + "</div>";
-      if (entry.ref) {
-        html += '<div class="passage">' + (entry.kind === "Review" ? "Review " : "") + ref(entry.ref) + "</div>";
-      }
-      if (entry.also.length) {
-        html += '<div class="also">Also: ' + entry.also.map(ref).join(", ") + "</div>";
-      }
-      if (entry.ref) {
-        html += '<button type="button" class="read-all" data-date="' + iso + '">Read all</button>';
-      }
-      html += '<div class="marker">L' + entry.lesson + " · Day " + entry.day + "</div>";
-    }
+    if (entry && !entry.meeting) cell.style.borderTopColor = sectionFor(entry.lesson).color;
+    const html = '<div class="date">' + d.getDate() + "</div>" + dayContent(iso);
     cell.innerHTML = html;
-    const button = cell.querySelector(".read-all");
-    if (button) button.onclick = function () { openReadAll(button.dataset.date); };
+    connectReadAll(cell);
     box.appendChild(cell);
   }
+}
+
+// What goes inside one day: phrase, passage, extra readings, Read all, then "L1 · Day 2".
+// Used by both the desktop calendar and the phone's big day card.
+function dayContent(iso) {
+  const entry = state.calendar[iso];
+  if (!entry) return "";
+  let html = "";
+  if (entry.meeting) {
+    html += '<div class="phrase">' + entry.phrase + "</div>";
+    if (entry.discuss.length) html += '<div class="marker">Lesson ' + entry.discuss.join(" & ") + "</div>";
+    return html;
+  }
+  html += '<div class="phrase">' + entry.phrase + "</div>";
+  if (entry.ref) {
+    html += '<div class="passage">' + (entry.kind === "Review" ? "Review " : "") + ref(entry.ref) + "</div>";
+  }
+  if (entry.also.length) {
+    html += '<div class="also">Also: ' + entry.also.map(ref).join(", ") + "</div>";
+  }
+  if (entry.ref) {
+    html += '<button type="button" class="read-all" data-date="' + iso + '">Read all</button>';
+  }
+  html += '<div class="marker">L' + entry.lesson + " · Day " + entry.day + "</div>";
+  return html;
+}
+
+function connectReadAll(element) {
+  element.querySelectorAll(".read-all").forEach(function (button) {
+    button.onclick = function () { openReadAll(button.dataset.date); };
+  });
+}
+
+/* ---------- Phone view: pick a week, then one day at a time ---------- */
+// A phone week follows the group's rhythm: Day 1 through discussion night.
+function weekDates(meeting) {
+  const dates = [];
+  for (let i = -6; i <= 0; i++) dates.push(toIso(addDays(meeting.date, i)));
+  return dates;
+}
+
+// Which week (by position in state.meetings) holds a given date
+function weekIndexFor(iso) {
+  const i = state.meetings.findIndex(function (m) { return weekDates(m).includes(iso); });
+  if (i >= 0) return i;
+  return iso < toIso(state.meetings[0].date) ? 0 : state.meetings.length - 1;
+}
+
+function selectWeek(index, dayIso) {
+  index = Math.max(0, Math.min(state.meetings.length - 1, index));
+  const meeting = state.meetings[index];
+  state.phoneWeek = index;
+  state.phoneDay = dayIso || toIso(meeting.date);
+  if (monthKey(meeting.date) !== state.month) { showMonth(monthKey(meeting.date), true); return; }
+  drawPhone();
+}
+
+function drawPhone() {
+  const box = document.getElementById("phone");
+  const meeting = state.meetings[state.phoneWeek];
+  const todayIso = toIso(new Date());
+
+  // a) Week strip: one small card per week in this month
+  let strip = "";
+  state.meetings.forEach(function (m, i) {
+    if (monthKey(m.date) !== state.month) return;
+    const n = m.discuss.length ? m.discuss[0] : m.study;
+    const label = m.discuss.length ? "Lesson " + m.discuss.join(" & ") : "No discussion";
+    const img = n !== null && n !== undefined ? '<img src="' + state.study.lessons[n].image + '" alt="">' : "";
+    strip += '<button type="button" class="week-chip' + (i === state.phoneWeek ? " selected" : "") +
+      '" data-week="' + i + '">' + img + "<span>" + label + "<br><small>" + shortDate(m.date) + "</small></span></button>";
+  });
+
+  // b) Details for the chosen week (same information as the desktop week card)
+  const lessons = meeting.discuss.length ? meeting.discuss : (meeting.study !== null ? [meeting.study] : []);
+  let details = meeting.note ? '<p class="note">' + meeting.note + "</p>" : "";
+  lessons.forEach(function (n) {
+    const lesson = state.study.lessons[n];
+    const section = sectionFor(n);
+    details += '<div class="phone-week">' +
+      "<h3>Lesson " + n + ": " + lesson.title + "</h3>" +
+      '<p class="truth">' + lesson.truth + "</p>" +
+      '<p class="facts-line"><b>Passage</b> ' + ref(lesson.passage) +
+      "</p>" + (lesson.focus ? '<p class="facts-line"><b>Focus verse</b> ' + ref(lesson.focus) + "</p>" : "") +
+      '<p class="facts-line"><b>Doctrine</b> ' + lesson.doctrine + "</p>" +
+      '<div class="outline" style="background:' + section.color + '">' +
+        section.title + " · " + section.passage + "</div></div>";
+  });
+
+  // c) Seven day buttons, then one big card for the chosen day
+  let buttons = "";
+  weekDates(meeting).forEach(function (iso) {
+    const d = toIso(new Date()) === iso ? " today" : "";
+    const entry = state.calendar[iso];
+    buttons += '<button type="button" class="day-pill' + (iso === state.phoneDay ? " selected" : "") + d +
+      (entry && entry.meeting ? " meeting" : "") + '" data-day="' + iso + '">' +
+      DAY_NAMES[toDate(iso).getDay()].slice(0, 3) + "<b>" + toDate(iso).getDate() + "</b></button>";
+  });
+  const day = toDate(state.phoneDay);
+  const entry = state.calendar[state.phoneDay];
+  const card = '<div class="day-card' + (entry && entry.meeting ? " meeting" : "") + (state.phoneDay === todayIso ? " today" : "") + '"' +
+    (entry && !entry.meeting ? ' style="border-top-color:' + sectionFor(entry.lesson).color + '"' : "") + ">" +
+    '<div class="date">' + DAY_NAMES[day.getDay()] + ", " + shortDate(day) + "</div>" +
+    (dayContent(state.phoneDay) || '<div class="phrase">No reading today.</div>') + "</div>";
+
+  box.innerHTML =
+    '<div class="week-strip">' + strip + "</div>" + details +
+    '<div class="day-pills">' + buttons + "</div>" + card +
+    '<div class="week-nav"><button type="button" data-step="-1">‹ Previous week</button>' +
+    '<button type="button" data-step="1">Next week ›</button></div>';
+
+  // Make everything clickable
+  box.querySelectorAll(".week-chip").forEach(function (b) {
+    b.onclick = function () { selectWeek(Number(b.dataset.week)); };
+  });
+  box.querySelectorAll(".day-pill").forEach(function (b) {
+    b.onclick = function () { state.phoneDay = b.dataset.day; drawPhone(); };
+  });
+  box.querySelectorAll(".week-nav button").forEach(function (b) {
+    b.onclick = function () { selectWeek(state.phoneWeek + Number(b.dataset.step)); };
+  });
+  connectReadAll(box);
+  const chosen = box.querySelector(".week-chip.selected");
+  if (chosen) chosen.scrollIntoView({ inline: "center", block: "nearest" });
+  tagReferences();
+}
+
+// Swipe left or right on the day card to move one day
+function setupSwipe() {
+  let startX = null;
+  const box = document.getElementById("phone");
+  box.addEventListener("touchstart", function (e) {
+    startX = e.target.closest(".day-card") ? e.touches[0].clientX : null;
+  });
+  box.addEventListener("touchend", function (e) {
+    if (startX === null) return;
+    const moved = e.changedTouches[0].clientX - startX;
+    if (Math.abs(moved) < 50) return;
+    const step = moved < 0 ? 1 : -1;
+    const next = toIso(addDays(toDate(state.phoneDay), step));
+    selectWeek(weekIndexFor(next), next);
+  });
 }
 
 /* ---------- Bible references ---------- */
@@ -227,13 +350,24 @@ function setupDialog() {
 }
 
 /* ---------- Step 4: showing a month, and the controls ---------- */
-function showMonth(key) {
+function showMonth(key, keepWeek) {
   state.month = key;
+  if (!keepWeek) {
+    // Pick today's week if it's in this month, otherwise the month's first week
+    const todayWeek = weekIndexFor(toIso(new Date()));
+    const inMonth = state.meetings.findIndex(function (m) { return monthKey(m.date) === key; });
+    if (monthKey(state.meetings[todayWeek].date) === key) {
+      state.phoneWeek = todayWeek; state.phoneDay = toIso(new Date());
+    } else if (inMonth >= 0) {
+      state.phoneWeek = inMonth; state.phoneDay = toIso(state.meetings[inMonth].date);
+    }
+  }
   document.getElementById("month-title").textContent =
     MONTH_NAMES[Number(key.slice(5)) - 1] + " " + key.slice(0, 4);
   drawMonths();
   drawWeeks();
   drawCalendar();
+  drawPhone();
   tagReferences();
 }
 
@@ -242,7 +376,9 @@ function goToToday() {
   let target = toIso(new Date());
   if (target < dates[0]) target = dates[0];                       // before the study starts
   if (target > dates[dates.length - 1]) target = dates[dates.length - 1];  // after it ends
-  showMonth(target.slice(0, 7));
+  state.phoneWeek = weekIndexFor(target);
+  state.phoneDay = target;
+  showMonth(monthKey(state.meetings[state.phoneWeek].date), true);
   const cell = document.getElementById("day-" + target);
   if (cell) cell.scrollIntoView({ behavior: "smooth", block: "center" });
 }
@@ -275,6 +411,7 @@ fetch(DATA_FILE)
     document.getElementById("today-button").onclick = goToToday;
     setupMeetingDayPicker();
     setupDialog();
+    setupSwipe();
     buildCalendar();
     goToToday();
   });
