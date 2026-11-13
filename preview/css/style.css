@@ -136,9 +136,12 @@ main { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem 3rem; }
   .week-chip.selected { border-color: var(--accent); }
 
   /* b) chosen week's details */
-  .phone-week { background: var(--card); border-radius: 12px; overflow: hidden; margin: .75rem 0; }
-  .phone-week h3 { font-size: 1.35rem; padding: .8rem 1rem 0; }
-  .phone-week .truth, .phone-week .facts-line { padding: 0 1rem; margin: .4rem 0; font-size: .92rem; }
+  .phone-week { background: var(--card); border-radius: 14px; overflow: hidden; margin: .9rem 0; }
+  .phone-week h3 { font-size: 1.65rem; line-height: 1.2; padding: 1.1rem 1.25rem .2rem; }
+  .phone-week .truth { padding: 0 1.25rem; margin: .5rem 0 .8rem; font-size: 1.1rem; }
+  .phone-week .facts-line { padding: 0 1.25rem; margin: .35rem 0; font-size: 1rem; }
+  .phone-week .facts-line:last-of-type { margin-bottom: 1rem; }
+  .phone-week .outline { font-size: .9rem; padding: .7rem 1.25rem; }
   .facts-line b { color: var(--muted); font-weight: 600; font-size: .75rem; text-transform: uppercase; }
   .note { background: var(--meeting); padding: .7rem 1rem; border-radius: 10px; }
 

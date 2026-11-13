@@ -241,9 +241,10 @@ function drawPhone() {
       "<h3>Lesson " + n + ": " + lesson.title + "</h3>" +
       '<p class="truth">' + lesson.truth + "</p>" +
       '<p class="facts-line"><b>Passage</b> ' + ref(lesson.passage) +
-      (lesson.focus ? " · <b>Focus</b> " + ref(lesson.focus) : "") +
-      " · <b>Doctrine</b> " + lesson.doctrine + "</p>" +
-      '<div class="outline" style="background:' + section.color + '">' + section.title + "</div></div>";
+      "</p>" + (lesson.focus ? '<p class="facts-line"><b>Focus verse</b> ' + ref(lesson.focus) + "</p>" : "") +
+      '<p class="facts-line"><b>Doctrine</b> ' + lesson.doctrine + "</p>" +
+      '<div class="outline" style="background:' + section.color + '">' +
+        section.title + " · " + section.passage + "</div></div>";
   });
 
   // c) Seven day buttons, then one big card for the chosen day
