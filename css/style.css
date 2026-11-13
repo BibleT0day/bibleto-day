@@ -106,7 +106,9 @@ main { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem 3rem; }
 .read-all {
   align-self: flex-start; margin-top: .35rem; padding: .15rem .55rem;
   font-size: .72rem; border-radius: 999px;
+  background: #eef3f8; color: var(--accent); border: 1px solid #d6e2ee;   /* quiet light blue */
 }
+.read-all:hover { background: #dce8f5; }
 .reading-dialog {
   border: none; border-radius: 14px; padding: 1.5rem 1.75rem; max-width: 30rem; width: 90vw;
   background: var(--card); color: var(--ink); box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
