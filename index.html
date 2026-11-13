@@ -40,6 +40,15 @@
     <section id="calendar" class="calendar"></section>
   </main>
 
+  <!-- 4. "Read all" pop-up: filled in by app.js when a day's button is clicked -->
+  <dialog id="reading-dialog" class="reading-dialog">
+    <button type="button" class="close" id="dialog-close" aria-label="Close">×</button>
+    <h3 id="dialog-title"></h3>
+    <p id="dialog-phrase" class="phrase"></p>
+    <ul id="dialog-list"></ul>
+    <a id="dialog-gateway" target="_blank" rel="noopener">Read them all together on Bible Gateway (NIV) →</a>
+  </dialog>
+
   <footer class="footer">Hover over a Bible reference to read it. Click it to open the full passage.</footer>
 
   <script src="js/app.js"></script>

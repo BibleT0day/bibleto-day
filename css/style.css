@@ -102,4 +102,21 @@ main { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem 3rem; }
   .day { min-height: 0; }
 }
 
+/* ---------- "Read all" button and pop-up ---------- */
+.read-all {
+  align-self: flex-start; margin-top: .35rem; padding: .15rem .55rem;
+  font-size: .72rem; border-radius: 999px;
+}
+.reading-dialog {
+  border: none; border-radius: 14px; padding: 1.5rem 1.75rem; max-width: 30rem; width: 90vw;
+  background: var(--card); color: var(--ink); box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
+}
+.reading-dialog::backdrop { background: rgba(40, 30, 20, .45); }
+.reading-dialog h3 { font-size: 1.4rem; padding-right: 2rem; }
+.reading-dialog ul { padding-left: 1.2rem; line-height: 1.9; }
+.reading-dialog .close {
+  position: absolute; top: .6rem; right: .7rem; background: none; border: none;
+  color: var(--muted); font-size: 1.6rem; line-height: 1; cursor: pointer;
+}
+
 .footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2rem; }

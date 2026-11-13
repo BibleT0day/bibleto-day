@@ -167,9 +167,14 @@ function drawCalendar() {
       if (entry.also.length) {
         html += '<div class="also">Also: ' + entry.also.map(ref).join(", ") + "</div>";
       }
+      if (entry.ref) {
+        html += '<button type="button" class="read-all" data-date="' + iso + '">Read all</button>';
+      }
       html += '<div class="marker">L' + entry.lesson + " · Day " + entry.day + "</div>";
     }
     cell.innerHTML = html;
+    const button = cell.querySelector(".read-all");
+    if (button) button.onclick = function () { openReadAll(button.dataset.date); };
     box.appendChild(cell);
   }
 }
@@ -193,6 +198,32 @@ function tagReferences() {
       span.replaceWith(a);
     });
   }, 2500);
+}
+
+/* ---------- "Read all": every passage for one day in a pop-up ---------- */
+function openReadAll(iso) {
+  const entry = state.calendar[iso];
+  const refs = [entry.ref].concat(entry.also);   // main passage first, then the extra readings
+  const date = toDate(iso);
+
+  document.getElementById("dialog-title").textContent =
+    DAY_NAMES[date.getDay()] + ", " + shortDate(date) + " · Lesson " + entry.lesson + ", Day " + entry.day;
+  document.getElementById("dialog-phrase").textContent = entry.phrase;
+  document.getElementById("dialog-list").innerHTML =
+    refs.map(function (r) { return "<li>" + ref(r) + "</li>"; }).join("");
+  document.getElementById("dialog-gateway").href =
+    "https://www.biblegateway.com/passage/?version=NIV&search=" + encodeURIComponent(refs.join("; "));
+
+  const dialog = document.getElementById("reading-dialog");
+  dialog.showModal();
+  tagReferences();   // let RefTagger add hover pop-ups inside the dialog too
+}
+
+function setupDialog() {
+  const dialog = document.getElementById("reading-dialog");
+  document.getElementById("dialog-close").onclick = function () { dialog.close(); };
+  // Clicking the dark area outside the box also closes it
+  dialog.onclick = function (event) { if (event.target === dialog) dialog.close(); };
 }
 
 /* ---------- Step 4: showing a month, and the controls ---------- */
@@ -243,6 +274,7 @@ fetch(DATA_FILE)
     document.getElementById("study-subtitle").textContent = study.subtitle + " · " + study.years;
     document.getElementById("today-button").onclick = goToToday;
     setupMeetingDayPicker();
+    setupDialog();
     buildCalendar();
     goToToday();
   });
