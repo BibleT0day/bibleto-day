@@ -1,0 +1,2459 @@
+{
+  "id": "romans-2026",
+  "title": "Romans",
+  "subtitle": "The World's Most Influential Letter",
+  "years": "2026-2027",
+  "calendarRules": {
+    "weekStartsOn": "Thursday",
+    "studyDaysBeforeMeeting": 6,
+    "meetingDays": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "lateWeekShift": {
+      "appliesTo": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "lessonsBehind": 0,
+      "note": "TO CONFIRM: groups meeting Thursday or later in the study week may be one lesson behind. Change lessonsBehind to 1 if so."
+    }
+  },
+  "sections": [
+    {
+      "title": "Introduction",
+      "passage": "Romans",
+      "color": "#7a6a58",
+      "lessons": [
+        0
+      ]
+    },
+    {
+      "title": "Humanity's Unrighteousness and Great Need of True Righteousness",
+      "passage": "Romans 1:1-3:20",
+      "color": "#9b4a3c",
+      "lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "title": "God's Gracious Gift of Righteousness Through Jesus Christ",
+      "passage": "Romans 3:21-8:39",
+      "color": "#b7832f",
+      "lessons": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "title": "Proof of God's Righteousness in His Sovereign Plan",
+      "passage": "Romans 9-11",
+      "color": "#4f7a5a",
+      "lessons": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "title": "God's Righteousness Worked Out in His People's Lives",
+      "passage": "Romans 12-16",
+      "color": "#3f6688",
+      "lessons": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "title": "Our Response",
+      "passage": "Romans",
+      "color": "#6b4f86",
+      "lessons": [
+        29,
+        30
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "weekStart": "2026-09-10",
+      "study": null,
+      "discuss": [
+        0
+      ],
+      "note": "Opening night! No lesson to prepare. Lesson 1 begins the next day."
+    },
+    {
+      "weekStart": "2026-09-17",
+      "study": 1,
+      "discuss": [
+        1
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-09-24",
+      "study": 2,
+      "discuss": [
+        2
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-10-01",
+      "study": 3,
+      "discuss": [
+        3
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-10-08",
+      "study": 4,
+      "discuss": [
+        4
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-10-15",
+      "study": 5,
+      "discuss": [
+        5
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-10-22",
+      "study": 6,
+      "discuss": [
+        6
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-10-29",
+      "study": 7,
+      "discuss": [
+        7
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-11-05",
+      "study": 8,
+      "discuss": [
+        8
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-11-12",
+      "study": 9,
+      "discuss": [
+        9
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-11-19",
+      "study": 10,
+      "discuss": [],
+      "note": "Thanksgiving flex week: no discussion. Complete lessons 10 and 11 before your next meeting."
+    },
+    {
+      "weekStart": "2026-11-26",
+      "study": 11,
+      "discuss": [
+        10,
+        11
+      ],
+      "note": "Discuss lessons 10 and 11."
+    },
+    {
+      "weekStart": "2026-12-03",
+      "study": 12,
+      "discuss": [
+        12
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-12-10",
+      "study": 13,
+      "discuss": [
+        13
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2026-12-17",
+      "study": null,
+      "discuss": [],
+      "note": "Christmas break: no discussion, no lesson."
+    },
+    {
+      "weekStart": "2026-12-24",
+      "study": null,
+      "discuss": [],
+      "note": "Christmas break: no discussion, no lesson."
+    },
+    {
+      "weekStart": "2026-12-31",
+      "study": null,
+      "discuss": [],
+      "note": "Christmas break: no discussion. Complete lesson 14 before your next meeting."
+    },
+    {
+      "weekStart": "2027-01-07",
+      "study": 14,
+      "discuss": [
+        14
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-01-14",
+      "study": 15,
+      "discuss": [
+        15
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-01-21",
+      "study": 16,
+      "discuss": [
+        16
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-01-28",
+      "study": 17,
+      "discuss": [
+        17
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-02-04",
+      "study": 18,
+      "discuss": [
+        18
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-02-11",
+      "study": 19,
+      "discuss": [
+        19
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-02-18",
+      "study": 20,
+      "discuss": [
+        20
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-02-25",
+      "study": 21,
+      "discuss": [
+        21
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-03-04",
+      "study": 22,
+      "discuss": [
+        22
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-03-11",
+      "study": 23,
+      "discuss": [
+        23
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-03-18",
+      "study": 24,
+      "discuss": [
+        24
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-03-25",
+      "study": null,
+      "discuss": [],
+      "note": "Easter break: no discussion. Complete lesson 25 before your next meeting."
+    },
+    {
+      "weekStart": "2027-04-01",
+      "study": 25,
+      "discuss": [
+        25
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-04-08",
+      "study": 26,
+      "discuss": [
+        26
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-04-15",
+      "study": 27,
+      "discuss": [
+        27
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-04-22",
+      "study": 28,
+      "discuss": [
+        28
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-04-29",
+      "study": 29,
+      "discuss": [
+        29
+      ],
+      "note": null
+    },
+    {
+      "weekStart": "2027-05-06",
+      "study": 30,
+      "discuss": [
+        30
+      ],
+      "note": "Sharing Day!"
+    }
+  ],
+  "lessons": {
+    "0": {
+      "title": "Romans: The World's Most Influential Letter",
+      "passage": "Overview",
+      "focus": "Romans 1:16",
+      "doctrine": "Bible",
+      "truth": "Romans explains timeless, essential truths for today and eternity.",
+      "image": "images/romans/lesson-00.jpg",
+      "days": []
+    },
+    "1": {
+      "title": "Humanity's Need for the Gospel",
+      "passage": "Romans 1:1-17",
+      "focus": "Romans 1:17",
+      "doctrine": "Righteousness",
+      "truth": "God reveals His saving power for all people through the gospel.",
+      "image": "images/romans/lesson-01.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Introduction notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "God called Paul to present the gospel to Roman believers.",
+          "kind": "Read",
+          "ref": "Romans 1:1-7",
+          "also": [
+            "Acts 9:20-22",
+            "1 Timothy 1:12-16"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul thanked God for the believers in Rome.",
+          "kind": "Read",
+          "ref": "Romans 1:8-10",
+          "also": [
+            "Acts 21:33-34",
+            "Acts 22:25-29",
+            "Acts 28:14-16"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul longed to visit the believers in Rome.",
+          "kind": "Read",
+          "ref": "Romans 1:11-15",
+          "also": [
+            "Acts 28:11-16",
+            "Acts 26:11-20"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul emphatically stated the gospel’s worth.",
+          "kind": "Read",
+          "ref": "Romans 1:16-17",
+          "also": [
+            "Philippians 3:4-9"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God reveals His saving power for all people through the gospel.",
+          "kind": "Review",
+          "ref": "Romans 1:1-17",
+          "also": []
+        }
+      ]
+    },
+    "2": {
+      "title": "God's Wrath Against Sinful Humanity",
+      "passage": "Romans 1:18-32",
+      "focus": "Romans 1:20",
+      "doctrine": "Wrath of God",
+      "truth": "Nothing is more important than how we respond to God.",
+      "image": "images/romans/lesson-02.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 1 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "God reveals His wrath against sinful people.",
+          "kind": "Read",
+          "ref": "Romans 1:18-20",
+          "also": [
+            "Matthew 5:14-16",
+            "John 1:4-9",
+            "John 8:12",
+            "2 Timothy 3:16"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Humanity exchanged worship of God for idolatry.",
+          "kind": "Read",
+          "ref": "Romans 1:21-23",
+          "also": [
+            "Romans 1:25"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "God gave humanity over to sexual sin.",
+          "kind": "Read",
+          "ref": "Romans 1:24-28",
+          "also": [
+            "Genesis 1:26-27",
+            "Genesis 2:24-25",
+            "Isaiah 50:1",
+            "Jeremiah 3:1, 8",
+            "1 Corinthians 6:9-11, 18-20",
+            "Ephesians 5:31-32"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "God gave people over to sin’s depravity.",
+          "kind": "Read",
+          "ref": "Romans 1:28-32",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "Nothing is more important than how we respond to God.",
+          "kind": "Review",
+          "ref": "Romans 1:18-32",
+          "also": []
+        }
+      ]
+    },
+    "3": {
+      "title": "No Excuse for Anyone",
+      "passage": "Romans 2",
+      "focus": "Romans 2:11",
+      "doctrine": "Judgment of Believers and Unbelievers",
+      "truth": "God alone perfectly judges every person.",
+      "image": "images/romans/lesson-03.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 2 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul revealed shocking truth about God’s judgment.",
+          "kind": "Read",
+          "ref": "Romans 2:1-4",
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "God will bring judgment against all sinners.",
+          "kind": "Read",
+          "ref": "Romans 2:5-16",
+          "also": []
+        },
+        {
+          "day": 4,
+          "phrase": "Paul questioned the religious superiority of the Jews.",
+          "kind": "Read",
+          "ref": "Romans 2:17-24",
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Paul defined true circumcision.",
+          "kind": "Read",
+          "ref": "Romans 2:25-29",
+          "also": [
+            "Genesis 17:9-14"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God alone perfectly judges every person.",
+          "kind": "Review",
+          "ref": "Romans 2",
+          "also": []
+        }
+      ]
+    },
+    "4": {
+      "title": "No One Righteous",
+      "passage": "Romans 3:1-20",
+      "focus": "Romans 3:10-11",
+      "doctrine": "Sin, Its Character and Universality",
+      "truth": "All people are condemned for their sin and accountable to God.",
+      "image": "images/romans/lesson-04.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 3 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul responded to objections about God’s faithfulness.",
+          "kind": "Read",
+          "ref": "Romans 3:1-4",
+          "also": [
+            "Romans 2:6-29",
+            "Genesis 12:1-7",
+            "Deuteronomy 30:15-20",
+            "Jeremiah 31:35-37",
+            "Psalm 51:1-6",
+            "John 3:18-19",
+            "James 1:13-14"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul responded to objections about God’s justice.",
+          "kind": "Read",
+          "ref": "Romans 3:5-8",
+          "also": [
+            "Romans 1:18-32",
+            "Romans 2:1-5",
+            "Luke 6:46"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul described humanity’s sinful condition using Old Testament passages.",
+          "kind": "Read",
+          "ref": "Romans 3:9-18",
+          "also": [
+            "Psalms 14:1-3",
+            "Psalms 53:1-3",
+            "James 3:5-10",
+            "Matthew 12:34-37"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul concluded his thoughts on human unrighteousness.",
+          "kind": "Read",
+          "ref": "Romans 3:19-20",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "All people are condemned for their sin and accountable to God.",
+          "kind": "Review",
+          "ref": "Romans 3:1-20",
+          "also": []
+        }
+      ]
+    },
+    "5": {
+      "title": "How God Saves Sinners",
+      "passage": "Romans 3:21-26",
+      "focus": "Romans 3:22-23",
+      "doctrine": "Salvation",
+      "truth": "God has made the way to be declared right with Him.",
+      "image": "images/romans/lesson-05.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 4 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Righteousness from God has been made known.",
+          "kind": "Read",
+          "ref": "Romans 3:21-22",
+          "also": [
+            "Genesis 15:6",
+            "Jeremiah 31:33-34",
+            "Ezekiel 36:23-27",
+            "John 1:12",
+            "Romans 10:9-10"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "All people need the salvation God offers by grace through faith.",
+          "kind": "Read",
+          "ref": "Romans 3:23-24",
+          "also": [
+            "Romans 3:9-18",
+            "Isaiah 53:10-11",
+            "Luke 18:14",
+            "2 Corinthians 5:21",
+            "Galatians 2:16",
+            "Philippians 3:9",
+            "Romans 8:1",
+            "Hosea 3:1-2",
+            "Ephesians 1:7-8",
+            "Titus 2:11-14",
+            "1 Peter 1:18-19"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Jesus’s blood atones for humanity’s sin.",
+          "kind": "Read",
+          "ref": "Romans 3:25-26",
+          "also": [
+            "Hebrews 10:1-18",
+            "John 19:30",
+            "Hebrews 2:17",
+            "1 John 2:2",
+            "1 John 4:10"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "God’s justice has been satisfied.",
+          "kind": "Reread",
+          "ref": "Romans 3:25-26",
+          "also": [
+            "Genesis 9:5-6",
+            "Deuteronomy 28",
+            "Romans 6:23",
+            "Psalm 33:5",
+            "Psalm 89:14",
+            "Psalm 103:6",
+            "Isaiah 9:7",
+            "Isaiah 51:5"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God has made the way to be declared right with Him.",
+          "kind": "Review",
+          "ref": "Romans 3:21-26",
+          "also": []
+        }
+      ]
+    },
+    "6": {
+      "title": "Justification by Faith, Part 1",
+      "passage": "Romans 3:27-31",
+      "focus": "Romans 3:28",
+      "doctrine": "Faith",
+      "truth": "God justifies people through faith in Christ alone.",
+      "image": "images/romans/lesson-06.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 5 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul revealed faith’s impact on pride.",
+          "kind": "Read",
+          "ref": "Romans 3:27-28",
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "Paul declared faith’s role in salvation.",
+          "kind": "Reread",
+          "ref": "Romans 3:27-28",
+          "also": [
+            "John 1:12",
+            "John 3:14-18",
+            "John 20:30-31",
+            "Ephesians 2:8-9",
+            "Romans 10:9",
+            "Hebrews 11"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul affirmed there is one God and one path to justification.",
+          "kind": "Read",
+          "ref": "Romans 3:29-30",
+          "also": [
+            "Romans 2:17, 23, 25",
+            "Romans 3:21-30"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul asserted that justification by faith upholds God’s law.",
+          "kind": "Read",
+          "ref": "Romans 3:31",
+          "also": [
+            "Exodus 20:1-17",
+            "Romans 6:23",
+            "Romans 13:8-10",
+            "Romans 3:20",
+            "Galatians 3:24",
+            "Romans 3:25-26",
+            "2 Corinthians 5:21",
+            "Hebrews 2:17",
+            "Hebrews 4:15",
+            "Romans 8:12-17, 31-34",
+            "Philippians 2:12-13",
+            "1 John 1:5-10"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God justifies people through faith in Christ alone.",
+          "kind": "Review",
+          "ref": "Romans 3:27-31",
+          "also": []
+        }
+      ]
+    },
+    "7": {
+      "title": "Justification by Faith, Part 2",
+      "passage": "Romans 4",
+      "focus": "Romans 4:20-21",
+      "doctrine": "Justification",
+      "truth": "God gives Christ’s righteousness to those who believe in Him.",
+      "image": "images/romans/lesson-07.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 6 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Abraham’s example demonstrates that God justifies the ungodly.",
+          "kind": "Read",
+          "ref": "Romans 4:1-5",
+          "also": [
+            "Romans 3:27",
+            "Genesis 12:1-9",
+            "Genesis 15:1-6, 18",
+            "Genesis 17:1-10, 23"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "David’s example demonstrates that God forgives and covers sin.",
+          "kind": "Read",
+          "ref": "Romans 4:6-8",
+          "also": [
+            "2 Samuel 11-12",
+            "Psalms 32",
+            "Psalms 51"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Righteousness comes by faith.",
+          "kind": "Read",
+          "ref": "Romans 4:9-15",
+          "also": [
+            "Genesis 15:1-6",
+            "Genesis 17:10-14, 24-27",
+            "Galatians 3:15-18"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "God made Abraham the father of all who believe.",
+          "kind": "Read",
+          "ref": "Romans 4:16-25",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "God gives Christ’s righteousness to those who believe in Him.",
+          "kind": "Review",
+          "ref": "Romans 4",
+          "also": []
+        }
+      ]
+    },
+    "8": {
+      "title": "Peace with God",
+      "passage": "Romans 5:1-11",
+      "focus": "Romans 5:1",
+      "doctrine": "Reconciliation",
+      "truth": "Believers have peace with God and hope in all circumstances.",
+      "image": "images/romans/lesson-08.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 7 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Justification brings believers peace with God.",
+          "kind": "Read",
+          "ref": "Romans 5:1-2",
+          "also": [
+            "Romans 2:5",
+            "Romans 4:5-7",
+            "John 14:6",
+            "Ephesians 2:18",
+            "Ephesians 3:12",
+            "Hebrews 4:14-16",
+            "Psalm 17:15",
+            "Matthew 5:8",
+            "1 John 3:2",
+            "Revelation 22:3-4"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Suffering produces fruit in the lives of believers.",
+          "kind": "Read",
+          "ref": "Romans 5:3-5",
+          "also": [
+            "Romans 8:17",
+            "Philippians 4:4-7"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "God demonstrates His love for sinners through Christ’s death.",
+          "kind": "Read",
+          "ref": "Romans 5:6-8",
+          "also": [
+            "Ephesians 2:1-9"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Christ’s life and death offer salvation to sinners.",
+          "kind": "Read",
+          "ref": "Romans 5:9-11",
+          "also": [
+            "Romans 4:25",
+            "Romans 6:8-10",
+            "Romans 8:34",
+            "Hebrews 7:24-25"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Believers have peace with God and hope in all circumstances.",
+          "kind": "Review",
+          "ref": "Romans 5:1-11",
+          "also": []
+        }
+      ]
+    },
+    "9": {
+      "title": "God's Gift of Righteousness",
+      "passage": "Romans 5:12-21",
+      "focus": "Romans 5:18",
+      "doctrine": "Grace",
+      "truth": "Christ’s gift of righteousness triumphs over Adam’s sin.",
+      "image": "images/romans/lesson-09.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 8 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Sin and death entered the world through one man.",
+          "kind": "Read",
+          "ref": "Romans 5:12-14",
+          "also": [
+            "Genesis 2:15-3:24",
+            "Romans 3:9-11, 23",
+            "Romans 8:20-21",
+            "1 Corinthians 15:22",
+            "Ephesians 2:1-3",
+            "Romans 5:15-21"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul contrasted God’s gift and Adam’s trespass.",
+          "kind": "Read",
+          "ref": "Romans 5:15-19",
+          "also": [
+            "John 3:7-21",
+            "Romans 10:9-13"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul explained the consequences of the gift and the trespass.",
+          "kind": "Reread",
+          "ref": "Romans 5:15-19",
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Adam brought sin, but by grace Jesus brought life.",
+          "kind": "Read",
+          "ref": "Romans 5:20-21",
+          "also": [
+            "Romans 5:13-14",
+            "Romans 7:7-12",
+            "Galatians 3:24",
+            "Colossians 1:13-14"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Christ’s gift of righteousness triumphs over Adam’s sin.",
+          "kind": "Review",
+          "ref": "Romans 5:12-21",
+          "also": []
+        }
+      ]
+    },
+    "10": {
+      "title": "Death to Sin",
+      "passage": "Romans 6:1-11",
+      "focus": "Romans 6:11",
+      "doctrine": "Salvation",
+      "truth": "A believer’s new identity in Christ frees them from sin’s power.",
+      "image": "images/romans/lesson-10.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 9 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul taught that believers no longer live in sin.",
+          "kind": "Read",
+          "ref": "Romans 6:1-4",
+          "also": [
+            "Romans 3:5-8, 31",
+            "Romans 1-3"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul used baptism to illustrate a believer’s death to sin.",
+          "kind": "Reread",
+          "ref": "Romans 6:1-4",
+          "also": [
+            "Matthew 28:19-20",
+            "Acts 1:5",
+            "Acts 2:38",
+            "1 Corinthians 12:13",
+            "Galatians 3:26-27",
+            "Colossians 2:11-12",
+            "Romans 5:12-21",
+            "2 Corinthians 5:14-21"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Believers are eternally united with Christ.",
+          "kind": "Read",
+          "ref": "Romans 6:5-10",
+          "also": [
+            "Ephesians 4:22-24",
+            "Colossians 3:5-10",
+            "Colossians 2:11-15"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Believers should view themselves through their union with Christ.",
+          "kind": "Read",
+          "ref": "Romans 6:9-11",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "A believer’s new identity in Christ frees them from sin’s power.",
+          "kind": "Review",
+          "ref": "Romans 6:1-11",
+          "also": []
+        }
+      ]
+    },
+    "11": {
+      "title": "Alive to God",
+      "passage": "Romans 6:12-23",
+      "focus": "Romans 6:23",
+      "doctrine": "Redemption",
+      "truth": "God’s grace makes believers eternally right with Him and frees them to live holy lives.",
+      "image": "images/romans/lesson-11.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 10 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul gave four commands and a promise.",
+          "kind": "Read",
+          "ref": "Romans 6:12-14",
+          "also": [
+            "Romans 4:22-25",
+            "Romans 5:17, 20-21",
+            "Romans 6:3-11",
+            "Ephesians 4:22-24",
+            "Colossians 3:9-10"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul explained why believers under grace should not sin.",
+          "kind": "Read",
+          "ref": "Romans 6:15-16",
+          "also": [
+            "Romans 6:1"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul thanked God for setting believers free from sin.",
+          "kind": "Read",
+          "ref": "Romans 6:17-18",
+          "also": [
+            "Romans 3:21-26",
+            "Romans 6:1-14"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul contrasted the results of serving sin with seeking God’s righteousness.",
+          "kind": "Read",
+          "ref": "Romans 6:19-23",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "God’s grace makes believers eternally right with Him and frees them to live holy lives.",
+          "kind": "Review",
+          "ref": "Romans 6:12-23",
+          "also": []
+        }
+      ]
+    },
+    "12": {
+      "title": "The Law and the Believer",
+      "passage": "Romans 7",
+      "focus": "Romans 7:24-25a",
+      "doctrine": "Sanctification",
+      "truth": "Believers belong to Jesus even as they struggle against sin.",
+      "image": "images/romans/lesson-12.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 11 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul explained a believer’s freedom from the law.",
+          "kind": "Read",
+          "ref": "Romans 7:1-6",
+          "also": [
+            "Romans 6:11-14, 18",
+            "John 15:1-5",
+            "Galatians 5:16-23"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul described how sin and the law work in the lives of people.",
+          "kind": "Read",
+          "ref": "Romans 7:7-13",
+          "also": []
+        },
+        {
+          "day": 4,
+          "phrase": "Paul explained his own internal battle with sin.",
+          "kind": "Read",
+          "ref": "Romans 7:14-20",
+          "also": [
+            "Romans 6:11-14"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul cried out for complete deliverance from his sinful nature.",
+          "kind": "Read",
+          "ref": "Romans 7:21-25",
+          "also": [
+            "Galatians 5:16-18",
+            "Philippians 1:6"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Believers belong to Jesus even as they struggle against sin.",
+          "kind": "Review",
+          "ref": "Romans 7",
+          "also": []
+        }
+      ]
+    },
+    "13": {
+      "title": "Life Through the Spirit",
+      "passage": "Romans 8:1-17",
+      "focus": "Romans 8:1",
+      "doctrine": "God the Holy Spirit",
+      "truth": "The Holy Spirit empowers God’s children to live holy lives.",
+      "image": "images/romans/lesson-13.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 12 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul proclaimed that believers are free from sin’s condemnation.",
+          "kind": "Read",
+          "ref": "Romans 8:1-4",
+          "also": [
+            "Romans 7:24-25",
+            "John 14:15-21",
+            "John 16:8-15"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul described two different mindsets.",
+          "kind": "Read",
+          "ref": "Romans 8:5-11",
+          "also": [
+            "Galatians 5:22-23",
+            "Colossians 3:1-4"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul exhorted believers regarding a new obligation.",
+          "kind": "Read",
+          "ref": "Romans 8:12-13",
+          "also": [
+            "2 Corinthians 7:1",
+            "Philippians 3:10-14",
+            "Romans 6:11-14",
+            "Galatians 5:13-21",
+            "Colossians 3:5-17"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul explained believers’ new status with God.",
+          "kind": "Read",
+          "ref": "Romans 8:14-17",
+          "also": [
+            "Matthew 6:7-8",
+            "Matthew 10:29-31",
+            "Romans 8:29",
+            "Hebrews 12:7-11",
+            "1 John 3:1-3"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "The Holy Spirit empowers God’s children to live holy lives.",
+          "kind": "Review",
+          "ref": "Romans 8:1-17",
+          "also": []
+        }
+      ]
+    },
+    "14": {
+      "title": "Suffering and Glory",
+      "passage": "Romans 8:18-27",
+      "focus": "Romans 8:18",
+      "doctrine": "Suffering",
+      "truth": "Believers eagerly await God’s promised eternal glory.",
+      "image": "images/romans/lesson-14.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 13 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul compared suffering with glory.",
+          "kind": "Read",
+          "ref": "Romans 8:18",
+          "also": [
+            "Romans 5:3-5",
+            "2 Corinthians 4:7-18",
+            "2 Corinthians 6:4-10",
+            "2 Corinthians 11:23-28",
+            "2 Corinthians 3:18",
+            "Philippians 3:20-21",
+            "Colossians 1:27",
+            "2 Thessalonians 2:13-14",
+            "Hebrews 2:10-14",
+            "Revelation 19:1-8",
+            "Revelation 22:3",
+            "Romans 8:17"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Creation groans in frustration and bondage.",
+          "kind": "Read",
+          "ref": "Romans 8:19-22",
+          "also": [
+            "Genesis 3:17-19",
+            "Genesis 1:27-2:3",
+            "2 Peter 3:10-13",
+            "Revelation 20:11-21:1"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "God’s people groan.",
+          "kind": "Read",
+          "ref": "Romans 8:23-25",
+          "also": [
+            "2 Corinthians 4:16-18",
+            "James 1:2-4",
+            "1 Peter 1:6-7",
+            "Revelation 21:1-5"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "The Holy Spirit groans.",
+          "kind": "Read",
+          "ref": "Romans 8:26-27",
+          "also": [
+            "Luke 12:11-12",
+            "Acts 1:8",
+            "Acts 16:6-10",
+            "Acts 20:22",
+            "Ephesians 4:3-4",
+            "Ephesians 6:17",
+            "1 Corinthians 2:12"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Believers eagerly await God’s promised eternal glory.",
+          "kind": "Review",
+          "ref": "Romans 8:18-27",
+          "also": []
+        }
+      ]
+    },
+    "15": {
+      "title": "Secure in God's Love",
+      "passage": "Romans 8:28-39",
+      "focus": "Romans 8:32",
+      "doctrine": "Eternal Security",
+      "truth": "God’s people rest securely in His good purposes, salvation, and love.",
+      "image": "images/romans/lesson-15.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 14 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul revealed a great promise.",
+          "kind": "Read",
+          "ref": "Romans 8:28",
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "Paul offered understanding regarding God’s sovereign purpose for His people.",
+          "kind": "Read",
+          "ref": "Romans 8:29-30",
+          "also": [
+            "Matthew 11:28-30",
+            "John 6:37, 44",
+            "John 10:1-5",
+            "John 11:25-44",
+            "Romans 1:6-7",
+            "Romans 3:22-26",
+            "Romans 8:17-21",
+            "Ephesians 1:4-5, 11",
+            "Romans 5:3-5",
+            "Ephesians 4:22-24",
+            "Philippians 2:13",
+            "2 Timothy 3:12, 15-17",
+            "Hebrews 2:18",
+            "Hebrews 5:7-8",
+            "1 Peter 1:6-7"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul offered questions and answers regarding the spiritual benefits God’s people experience through faith.",
+          "kind": "Read",
+          "ref": "Romans 8:31-35",
+          "also": [
+            "Romans 8:36-39"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul proclaimed nothing could separate God’s people from His love.",
+          "kind": "Read",
+          "ref": "Romans 8:35-39",
+          "also": [
+            "Psalm 44:22",
+            "John 16:33",
+            "Romans 8:28, 32"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God’s people rest securely in His good purposes, salvation, and love.",
+          "kind": "Review",
+          "ref": "Romans 8:28-39",
+          "also": []
+        }
+      ]
+    },
+    "16": {
+      "title": "God's Sovereignty in Salvation",
+      "passage": "Romans 9:1-29",
+      "focus": "Romans 9:23-24",
+      "doctrine": "Election",
+      "truth": "God is sovereign over His creation and faithfully keeps His promises.",
+      "image": "images/romans/lesson-16.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 15 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul grieved for unbelieving Israelites.",
+          "kind": "Read",
+          "ref": "Romans 9:1-5",
+          "also": [
+            "Exodus 32:30-32",
+            "Luke 19:41-44",
+            "John 10:11",
+            "Romans 11:7-10",
+            "Romans 8:1, 28-29, 35, 38-39",
+            "Luke 22:20",
+            "John 1:14",
+            "Romans 8:15",
+            "2 Corinthians 1:20",
+            "Galatians 4:4-5",
+            "Hebrews 9:22-28"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul affirmed that God’s word to Israel had not failed.",
+          "kind": "Read",
+          "ref": "Romans 9:6-13",
+          "also": [
+            "Genesis 12:2-3",
+            "Genesis 15:4-21",
+            "Genesis 17:1-22",
+            "Genesis 28:10-15",
+            "Exodus 2:24",
+            "Exodus 6:2-8",
+            "2 Samuel 7:8-16",
+            "Matthew 1:1-16",
+            "Genesis 16:15",
+            "Genesis 25:1-2",
+            "Romans 2:28-29"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul addressed questions about God’s sovereign election.",
+          "kind": "Read",
+          "ref": "Romans 9:14-21",
+          "also": [
+            "Exodus 7:3, 13",
+            "Exodus 8:32",
+            "Exodus 14:4",
+            "Isaiah 29:16",
+            "Isaiah 64:8",
+            "Jeremiah 18:6",
+            "2 Timothy 2:20"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul offered examples to illustrate God’s sovereign purposes.",
+          "kind": "Read",
+          "ref": "Romans 9:22-29",
+          "also": [
+            "Ephesians 1:7-8, 18-23",
+            "Ephesians 2:1-10",
+            "Romans 11:3-6, 25-27"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God is sovereign over His creation and faithfully keeps His promises.",
+          "kind": "Review",
+          "ref": "Romans 9:1-29",
+          "also": []
+        }
+      ]
+    },
+    "17": {
+      "title": "Our Responsibility in Salvation",
+      "passage": "Romans 9:30-10:13",
+      "focus": "Romans 10:9",
+      "doctrine": "Righteousness",
+      "truth": "Everyone who calls on the name of the Lord will be saved.",
+      "image": "images/romans/lesson-17.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 16 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul highlighted the differences between how Jews and Gentiles pursued righteousness.",
+          "kind": "Read",
+          "ref": "Romans 9:30-33",
+          "also": [
+            "Romans 1:17",
+            "Romans 3:22",
+            "Romans 6:11-14",
+            "Genesis 49:24",
+            "Deuteronomy 32:4, 15, 18",
+            "Psalms 19:14",
+            "Psalms 31:2-3",
+            "Isaiah 8:14",
+            "Isaiah 28:16",
+            "1 Peter 2:7-8"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul fervently prayed for the zealous Israelites who lacked knowledge.",
+          "kind": "Read",
+          "ref": "Romans 10:1-4",
+          "also": [
+            "Romans 3:21-23"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul quoted Moses to contrast righteousness by the law with righteousness by faith.",
+          "kind": "Read",
+          "ref": "Romans 10:5-9",
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Paul affirmed that there is only one way to saving righteousness.",
+          "kind": "Read",
+          "ref": "Romans 10:10-13",
+          "also": [
+            "Matthew 6:21",
+            "Matthew 12:34",
+            "Romans 1:21-22",
+            "Galatians 4:6"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Everyone who calls on the name of the Lord will be saved.",
+          "kind": "Review",
+          "ref": "Romans 9:30-10:13",
+          "also": []
+        }
+      ]
+    },
+    "18": {
+      "title": "Our Privilege in Salvation",
+      "passage": "Romans 10:14-21",
+      "focus": "Romans 10:17",
+      "doctrine": "Repentance",
+      "truth": "God faithfully sends His messengers to proclaim Christ to the world.",
+      "image": "images/romans/lesson-18.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 17 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul unfolded faith’s progression from belief to calling on Jesus.",
+          "kind": "Read",
+          "ref": "Romans 10:14-15",
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "Paul highlighted the privilege of sharing the truth about Christ.",
+          "kind": "Reread",
+          "ref": "Romans 10:14-15",
+          "also": [
+            "Matthew 28:18-20",
+            "Acts 1:8",
+            "Acts 13:45-47",
+            "Romans 15:20",
+            "2 Corinthians 2:14-15",
+            "Isaiah 52:3-10"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul recognized that not everyone would respond to the gospel.",
+          "kind": "Read",
+          "ref": "Romans 10:16-17",
+          "also": [
+            "Romans 1:17-23",
+            "Romans 3:9-12"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Through Old Testament quotes, Paul proved that Israel had heard and understood the message about Jesus.",
+          "kind": "Read",
+          "ref": "Romans 10:18-21",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "God faithfully sends His messengers to proclaim Christ to the world.",
+          "kind": "Review",
+          "ref": "Romans 10:14-21",
+          "also": []
+        }
+      ]
+    },
+    "19": {
+      "title": "Salvation for the Gentiles and for Israel",
+      "passage": "Romans 11:1-32",
+      "focus": "Romans 11:25",
+      "doctrine": "Fulfillment of Prophecy",
+      "truth": "God always works to accomplish His perfect plan for all people.",
+      "image": "images/romans/lesson-19.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 18 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul reasoned that God has not rejected the Jewish people.",
+          "kind": "Read",
+          "ref": "Romans 11:1-6",
+          "also": [
+            "Acts 9:1-19",
+            "1 Kings 19:1-18",
+            "Romans 9:15-16"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Israel experienced hardened hearts in their disobedience.",
+          "kind": "Read",
+          "ref": "Romans 11:7-10",
+          "also": [
+            "Romans 9:31-33",
+            "Isaiah 29:10-14",
+            "Matthew 13:12-15",
+            "John 12:37-43",
+            "Acts 28:24-28"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul expressed hope for Gentiles and Israel alike.",
+          "kind": "Read",
+          "ref": "Romans 11:11-24",
+          "also": [
+            "Romans 2:4-5"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul discussed Israel’s promised restoration.",
+          "kind": "Read",
+          "ref": "Romans 11:25-32",
+          "also": [
+            "Isaiah 27:9",
+            "Isaiah 59:20-21",
+            "Jeremiah 31:33-34",
+            "Zechariah 12:10",
+            "Zechariah 13:1",
+            "Romans 3"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God always works to accomplish His perfect plan for all people.",
+          "kind": "Review",
+          "ref": "Romans 11:1-32",
+          "also": []
+        }
+      ]
+    },
+    "20": {
+      "title": "All Glory to God Forever",
+      "passage": "Romans 11:33-36",
+      "focus": "Romans 11:36",
+      "doctrine": "God the Father",
+      "truth": "God’s absolute superiority calls for unending praise.",
+      "image": "images/romans/lesson-20.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 19 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul broke forth into a doxology of praise to God.",
+          "kind": "Read",
+          "ref": "Romans 11:33",
+          "also": [
+            "Romans 9:1-11:32",
+            "1 Kings 8:39",
+            "Job 9:4",
+            "Job 28:12-28",
+            "Psalm 147:4",
+            "Proverbs 3:19"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul asked two questions regarding God.",
+          "kind": "Read",
+          "ref": "Romans 11:34",
+          "also": [
+            "Job 38:1-7",
+            "Job 42:1-6",
+            "Psalm 8:1-9",
+            "Isaiah 40:14-28"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul asked a third question about God.",
+          "kind": "Read",
+          "ref": "Romans 11:35",
+          "also": [
+            "Genesis 1:27-30",
+            "John 3:16",
+            "Acts 17:24-28",
+            "Job 41:11",
+            "Romans 12:1"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul praised God for who He is.",
+          "kind": "Read",
+          "ref": "Romans 11:36",
+          "also": [
+            "Isaiah 43:7",
+            "Ephesians 1:5-10",
+            "Revelation 4:11"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God’s absolute superiority calls for unending praise.",
+          "kind": "Review",
+          "ref": "Romans 11:33-36",
+          "also": []
+        }
+      ]
+    },
+    "21": {
+      "title": "Christian Worship and Service",
+      "passage": "Romans 12:1-8",
+      "focus": "Romans 12:1",
+      "doctrine": "The Church",
+      "truth": "God transforms and equips surrendered believers for the good of Christ’s body.",
+      "image": "images/romans/lesson-21.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 20 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul urged believers to offer God their bodies as living sacrifices.",
+          "kind": "Read",
+          "ref": "Romans 12:1-2",
+          "also": [
+            "Romans 9:15",
+            "Romans 9:23",
+            "Ephesians 2:4-5",
+            "1 Peter 1:3",
+            "Romans 1-8",
+            "Leviticus 16",
+            "Romans 6:3-4, 11-13",
+            "Hebrews 10:1-10"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul called believers to be transformed by renewing their minds.",
+          "kind": "Reread",
+          "ref": "Romans 12:1-2",
+          "also": [
+            "Galatians 1:3-5",
+            "Ephesians 2:1-2",
+            "1 John 2:15-17",
+            "Romans 8:5-11",
+            "2 Corinthians 3:18",
+            "Philippians 2:13",
+            "1 Peter 2:15",
+            "1 Peter 3:17",
+            "1 Peter 4:1-11"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul described the unity and diversity of Christ’s body, the Church.",
+          "kind": "Read",
+          "ref": "Romans 12:3-5",
+          "also": [
+            "Ephesians 4:1-6"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul exhorted believers to serve God and others with their unique gifts.",
+          "kind": "Read",
+          "ref": "Romans 12:6-8",
+          "also": [
+            "1 Corinthians 7:7",
+            "1 Corinthians 12:4-6",
+            "Ephesians 4:11-13",
+            "1 Peter 4:10-11"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God transforms and equips surrendered believers for the good of Christ’s body.",
+          "kind": "Review",
+          "ref": "Romans 12:1-8",
+          "also": []
+        }
+      ]
+    },
+    "22": {
+      "title": "Christian Love",
+      "passage": "Romans 12:9-21",
+      "focus": "Romans 12:9",
+      "doctrine": "The Cross for a Believer",
+      "truth": "God calls His people to love like He does.",
+      "image": "images/romans/lesson-22.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 21 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul called believers to love sincerely and hate evil.",
+          "kind": "Read",
+          "ref": "Romans 12:9",
+          "also": [
+            "Romans 12:1-2",
+            "Proverbs 8:13",
+            "Proverbs 13:5",
+            "Ecclesiastes 3:8",
+            "Isaiah 61:8",
+            "Amos 5:15"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul called believers to selfless, persevering, generous love.",
+          "kind": "Read",
+          "ref": "Romans 12:10-13",
+          "also": [
+            "Romans 3:21-23",
+            "Romans 7:21-25",
+            "Romans 8:1, 9-14"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul taught God’s loving strategies for healthy relationships.",
+          "kind": "Read",
+          "ref": "Romans 12:14-16",
+          "also": [
+            "Matthew 5:44",
+            "Matthew 7:12",
+            "Luke 6:27-28",
+            "Mark 2:15-17",
+            "Mark 10:45",
+            "Luke 23:34",
+            "John 2:1-2",
+            "Romans 5:6-8",
+            "Philippians 2:7-8",
+            "Hebrews 4:15"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul explained Christians’ responsibility to all people, including their enemies.",
+          "kind": "Read",
+          "ref": "Romans 12:17-21",
+          "also": [
+            "Deuteronomy 32:35",
+            "Genesis 45:1-5",
+            "Daniel 6",
+            "Matthew 26-28",
+            "Romans 8"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God calls His people to love like He does.",
+          "kind": "Review",
+          "ref": "Romans 12:9-21",
+          "also": []
+        }
+      ]
+    },
+    "23": {
+      "title": "Christian Submission to Authority",
+      "passage": "Romans 13:1-7",
+      "focus": "Romans 13:1",
+      "doctrine": "The Sovereignty of God",
+      "truth": "God sovereignly places people in positions of authority.",
+      "image": "images/romans/lesson-23.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 22 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul issued a demand regarding governing authorities.",
+          "kind": "Read",
+          "ref": "Romans 13:1",
+          "also": [
+            "Daniel 3",
+            "Daniel 6",
+            "Acts 5:29"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul explained the consequence of refusal to submit to authority.",
+          "kind": "Read",
+          "ref": "Romans 13:2-4",
+          "also": []
+        },
+        {
+          "day": 4,
+          "phrase": "Paul gave reasons for the Roman believers to submit to authority.",
+          "kind": "Read",
+          "ref": "Romans 13:5-7",
+          "also": [
+            "Luke 20:22-25"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul exhorted believers to live rightly before God and others.",
+          "kind": "Reread",
+          "ref": "Romans 13:1-7",
+          "also": [
+            "Exodus 20:12",
+            "Leviticus 19:32",
+            "1 Timothy 5:17",
+            "1 Timothy 6:15-16",
+            "1 Peter 2:13-17"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God sovereignly places people in positions of authority.",
+          "kind": "Review",
+          "ref": "Romans 13:1-7",
+          "also": []
+        }
+      ]
+    },
+    "24": {
+      "title": "Christian Living",
+      "passage": "Romans 13:8-14",
+      "focus": "Romans 13:14",
+      "doctrine": "The Second Coming of Christ",
+      "truth": "Jesus’s promised return calls believers to live holy lives of love.",
+      "image": "images/romans/lesson-24.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 23 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul explained the believer’s debt of love.",
+          "kind": "Read",
+          "ref": "Romans 13:8-10",
+          "also": [
+            "Matthew 5:43-44",
+            "Luke 10:25-37",
+            "Galatians 6:10",
+            "Leviticus 19:18",
+            "Galatians 5:14",
+            "Matthew 5:44",
+            "John 13:34",
+            "John 15:13",
+            "1 Corinthians 8:1",
+            "Galatians 6:2"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul called believers to wake up from slumber.",
+          "kind": "Read",
+          "ref": "Romans 13:11",
+          "also": [
+            "Matthew 4:17",
+            "Galatians 1:3-4"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul urged believers to step out of the darkness.",
+          "kind": "Read",
+          "ref": "Romans 13:12-13",
+          "also": [
+            "1 John 1:5-7",
+            "Matthew 5:16"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul told believers to clothe themselves in Christ.",
+          "kind": "Read",
+          "ref": "Romans 13:14",
+          "also": [
+            "Galatians 3:27",
+            "Ephesians 4:17-24",
+            "Galatians 5:22-23",
+            "Ephesians 6:10-18",
+            "Philippians 2:13"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Jesus’s promised return calls believers to live holy lives of love.",
+          "kind": "Review",
+          "ref": "Romans 13:8-14",
+          "also": []
+        }
+      ]
+    },
+    "25": {
+      "title": "Christian Liberty",
+      "passage": "Romans 14",
+      "focus": "Romans 14:17",
+      "doctrine": "Judgment of Believers and Unbelievers",
+      "truth": "God calls believers to love one another even when they disagree on disputable matters.",
+      "image": "images/romans/lesson-25.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 24 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul taught believers how to treat others when they hold different views about disputable issues.",
+          "kind": "Read",
+          "ref": "Romans 14:1-8",
+          "also": [
+            "Exodus 20:1-17",
+            "Acts 4:11-12",
+            "Romans 3:21-26",
+            "Romans 6:1-2",
+            "Romans 13:9-10"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul reminded believers that Jesus is the risen Lord and judge of all.",
+          "kind": "Read",
+          "ref": "Romans 14:9-12",
+          "also": [
+            "Acts 10:42",
+            "Acts 17:30-31",
+            "Romans 2:16"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul encouraged believers not to create obstacles for others with their lifestyle practices.",
+          "kind": "Read",
+          "ref": "Romans 14:13-18",
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Paul pointed believers toward lives that promote peace and mutual edification.",
+          "kind": "Read",
+          "ref": "Romans 14:19-23",
+          "also": [
+            "Romans 12:1-8"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God calls believers to love one another even when they disagree on disputable matters.",
+          "kind": "Review",
+          "ref": "Romans 14",
+          "also": []
+        }
+      ]
+    },
+    "26": {
+      "title": "Christian Unity",
+      "passage": "Romans 15:1-13",
+      "focus": "Romans 15:13",
+      "doctrine": "God the Son",
+      "truth": "God empowers believers to live in unity and hope as they follow Christ.",
+      "image": "images/romans/lesson-26.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 25 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul assigned responsibilities to strong believers.",
+          "kind": "Read",
+          "ref": "Romans 15:1-3",
+          "also": [
+            "Psalm 69"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul spoke to Scripture’s important role in Christian unity.",
+          "kind": "Read",
+          "ref": "Romans 15:4-6",
+          "also": [
+            "Romans 14:13-18"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul spoke about acceptance of other believers.",
+          "kind": "Read",
+          "ref": "Romans 15:7-12",
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Paul spoke words of hope to His readers.",
+          "kind": "Read",
+          "ref": "Romans 15:13",
+          "also": [
+            "1 Timothy 1:1",
+            "Hebrews 6:18-19",
+            "Hebrews 11:1"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "God empowers believers to live in unity and hope as they follow Christ.",
+          "kind": "Review",
+          "ref": "Romans 15:1-13",
+          "also": []
+        }
+      ]
+    },
+    "27": {
+      "title": "Paul's Ministry and Plans",
+      "passage": "Romans 15:14-33",
+      "focus": "Romans 15:17",
+      "doctrine": "Works",
+      "truth": "God invites His people to join in His gospel work.",
+      "image": "images/romans/lesson-27.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 26 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul commended the Roman believers.",
+          "kind": "Read",
+          "ref": "Romans 15:14-16",
+          "also": [
+            "Ephesians 2:8-10"
+          ]
+        },
+        {
+          "day": 3,
+          "phrase": "Paul explained his God-given ministry.",
+          "kind": "Read",
+          "ref": "Romans 15:17-22",
+          "also": [
+            "Acts 9:15-18"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul desired to visit Rome.",
+          "kind": "Read",
+          "ref": "Romans 15:23-29",
+          "also": [
+            "Romans 15:32"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul urged the Roman believers to pray for his ministry.",
+          "kind": "Read",
+          "ref": "Romans 15:30-33",
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "God invites His people to join in His gospel work.",
+          "kind": "Review",
+          "ref": "Romans 15:14-33",
+          "also": []
+        }
+      ]
+    },
+    "28": {
+      "title": "The Gospel's Impact in Rome and Corinth",
+      "passage": "Romans 16",
+      "focus": "Romans 16:27",
+      "doctrine": "The Church",
+      "truth": "Godly relationships reflect the transformative power of the gospel.",
+      "image": "images/romans/lesson-28.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 27 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul greeted beloved believers in Rome.",
+          "kind": "Read",
+          "ref": "Romans 16:1-16",
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "Paul offered a warning to the believers in Rome.",
+          "kind": "Read",
+          "ref": "Romans 16:17-20",
+          "also": [
+            "Matthew 10:16",
+            "Romans 12:21"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Believers in Corinth greeted the believers in Rome.",
+          "kind": "Read",
+          "ref": "Romans 16:21-23",
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Paul gave glory to God forever through Jesus Christ.",
+          "kind": "Read",
+          "ref": "Romans 16:24-27",
+          "also": [
+            "Ephesians 3:2-6",
+            "Colossians 1:27"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "Godly relationships reflect the transformative power of the gospel.",
+          "kind": "Review",
+          "ref": "Romans 16",
+          "also": []
+        }
+      ]
+    },
+    "29": {
+      "title": "Responding to the World's Most Influential Letter",
+      "passage": "Summary",
+      "focus": "Romans 15:14-15",
+      "doctrine": "Humanity: Creation and Purpose",
+      "truth": "The Holy Spirit grows believers in holiness as they reflect on and rightly respond to the gospel.",
+      "image": "images/romans/lesson-29.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 28 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Paul greeted believers in Rome and reminded them of humanity’s need for God’s righteousness.",
+          "kind": "Review",
+          "ref": "Romans 1:1-3:20",
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "Paul explained how God accomplished salvation by grace through faith in Jesus Christ.",
+          "kind": "Review",
+          "ref": "Romans 3:21-8:39",
+          "also": [
+            "Romans 3:21-31",
+            "Romans 6:23",
+            "Romans 7:24-25",
+            "Romans 8:32",
+            "Romans 5:11, 18",
+            "Romans 6:4-5, 7",
+            "Romans 8:1",
+            "Romans 4:18-22",
+            "Romans 5:1",
+            "Romans 6:11",
+            "Ephesians 1:13-14"
+          ]
+        },
+        {
+          "day": 4,
+          "phrase": "Paul worshipped God after explaining His sovereign plan to save both Jews and Gentiles.",
+          "kind": "Review",
+          "ref": "Romans 9:1-11:36",
+          "also": [
+            "Romans 3:9-20",
+            "Romans 9:14-16",
+            "Romans 11:33-36",
+            "Romans 9:25-29",
+            "Romans 10:17-21",
+            "Romans 11:7-11, 25-27",
+            "John 15:26-27",
+            "Romans 10:1, 14-17"
+          ]
+        },
+        {
+          "day": 5,
+          "phrase": "Paul concluded his letter by calling believers to love and live holy lives.",
+          "kind": "Review",
+          "ref": "Romans 12:1-16:27",
+          "also": [
+            "Romans 12",
+            "Romans 13",
+            "Romans 14-16",
+            "Romans 5",
+            "Romans 8"
+          ]
+        },
+        {
+          "day": 6,
+          "phrase": "The Holy Spirit grows believers in holiness as they reflect on and rightly respond to the gospel.",
+          "kind": "Review",
+          "ref": "Romans 1-16",
+          "also": []
+        }
+      ]
+    },
+    "30": {
+      "title": "Reflections on This Year's Study",
+      "passage": "Sharing Day",
+      "focus": null,
+      "doctrine": "All",
+      "truth": "Sharing Day! One of the best nights of our year together.",
+      "image": "images/romans/lesson-30.jpg",
+      "days": [
+        {
+          "day": 1,
+          "phrase": "Lecture & Lesson 29 notes",
+          "kind": "Lecture",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 2,
+          "phrase": "Magnifying God",
+          "kind": "Reflect",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 3,
+          "phrase": "Studying the Bible in Community",
+          "kind": "Reflect",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 4,
+          "phrase": "Reaching the Next Generation",
+          "kind": "Reflect",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 5,
+          "phrase": "Facing Forward",
+          "kind": "Reflect",
+          "ref": null,
+          "also": []
+        },
+        {
+          "day": 6,
+          "phrase": "Maturing His People",
+          "kind": "Reflect",
+          "ref": null,
+          "also": []
+        }
+      ]
+    }
+  }
+}

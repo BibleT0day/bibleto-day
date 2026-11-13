@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+  index.html — the SKELETON of the page.
+  It only holds empty "boxes" (with id names). app.js fills them with content
+  from data/romans-2026.json, and css/style.css paints them.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Romans · bibleto.day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. Top bar: study name, meeting-day picker, Today button -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="site">bibleto.day</span>
+      <h1 id="study-title">Romans</h1>
+      <p id="study-subtitle" class="subtitle"></p>
+    </div>
+    <div class="controls">
+      <label>My group meets on
+        <select id="meeting-day"></select>
+      </label>
+      <button id="today-button" type="button">Today</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Month cards -->
+    <nav id="months" class="months" aria-label="Months"></nav>
+
+    <!-- 3. The chosen month: heading, week cards, then the calendar -->
+    <h2 id="month-title" class="month-title"></h2>
+    <section id="weeks" class="weeks"></section>
+    <section id="calendar" class="calendar"></section>
+  </main>
+
+  <footer class="footer">Hover over a Bible reference to read it. Click it to open the full passage.</footer>
+
+  <script src="js/app.js"></script>
+
+  <!-- RefTagger by Logos: finds Bible references on the page and adds hover pop-ups. -->
+  <script>
+    var refTagger = { settings: {
+      bibleVersion: "NIV",          // Biblia's NIV is the NIV 2011
+      bibleReader: "biblia",        // clicks open Biblia.com, the Logos Bible website
+      linksOpenNewWindow: true,
+      tagChapters: true,            // so "Romans 2" and "Psalm 69" get links too
+      roots: [document.body],
+      socialSharing: []
+    } };
+    (function (d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = "https://api.reftagger.com/v2/RefTagger.js";
+      s.parentNode.insertBefore(g, s);
+    }(document, "script"));
+  </script>
+</body>
+</html>
